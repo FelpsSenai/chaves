@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+main{
+    background-color: #021526;
+    color: #E2E2B6;
+    padding-bottom: 25px;
+}
+
+footer{
+    background-color: #03346E;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+.footer__github__link{
+    align-items: center;
+    border: 2px solid #021526;
+    color: #021526;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    width: 5%;
+}
+.footer__github__link:hover{
+    background-color: #6EACDA;
+}
