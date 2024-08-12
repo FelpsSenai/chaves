@@ -5,8 +5,27 @@ main{
     background-color: #021526;
     color: #E2E2B6;
     padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
-
+.main__introducao__apresentacao{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.main__introducao__apresentacao__imagem{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    width: 50%;
+}
+.main__introducao__apresentacao__texto{
+    flex-direction: column;
+    padding-right: 10%;
+    width: 50%;
+}
 footer{
     background-color: #03346E;
     padding-bottom: 25px;
@@ -25,7 +44,7 @@ footer{
     padding-right: 10px;
     padding-top: 10px;
     text-decoration: none;
-    width: 5%;
+    width: 7%;
 }
 .footer__github__link:hover{
     background-color: #6EACDA;
